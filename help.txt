@@ -1,9 +1,24 @@
-git init
-git status
+//local test
+	git config --global user.email "me@test.com"
+	git config --global user.name "me"
+
+	git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
+
+//to initiate a new git
+	git init
+
+//to check status
+	git status
+
+//to add file/s
 git add index.html
 git add .
-git reset //cancels add
 
+//to cancel add
+	git reset
+
+// to commit
 git commit -m "revision 0.1"
 
 // to clone a git from github
@@ -14,11 +29,11 @@ git commit -m "revision 0.1"
 	git init
 	git add README.md
 	git commit -m "first commit"
-	git remote add origin https://github.com/tsaras/uml.git
-git push -u origin master
 
-// git config --global user.email "you@example.com"
-// git config --global user.name "Your Name"
+//
+	git remote add origin https://github.com/username/projectname.git
+	git push -u origin master
+
 
 git log //shows logs
 
@@ -66,7 +81,7 @@ git remote show origin //pulls, merges, pushes
 //-----------------------------------------------------------------------
 //…or push an existing repository from the command line
 
-git remote add origin https://github.com/tsaras/e-commerce.git
+git remote add origin https://github.com/username/projectname.git
 git push -u origin master
 
 
