@@ -95,5 +95,5 @@ $ git branch
 
 //to see what/where remotes are set
 	git remote -v
-
-
+/to delete an origin
+	git remote rm origin
