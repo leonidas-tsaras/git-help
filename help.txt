@@ -30,7 +30,7 @@ git commit -m "revision 0.1"
 	git add README.md
 	git commit -m "first commit"
 
-//
+// to upload a git from local to github (must exist an empty github)
 	git remote add origin https://github.com/username/projectname.git
 	git push -u origin master
 
