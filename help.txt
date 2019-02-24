@@ -12,14 +12,14 @@
 	git status
 
 //to add file/s
-git add index.html
-git add .
+	git add index.html (or)
+	git add .
 
 //to cancel add
 	git reset
 
 // to commit
-git commit -m "revision 0.1"
+	git commit -m "revision 0.1"
 
 // to clone a git from github
 	git clone https://github.com/username/repositoryname.git
@@ -38,7 +38,7 @@ git commit -m "revision 0.1"
 	git remote rm repositoryname
 
 //to check remode projects
-git remote
+	git remote
 
 git log //shows logs
 
