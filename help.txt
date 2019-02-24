@@ -22,18 +22,23 @@ git add .
 git commit -m "revision 0.1"
 
 // to clone a git from github
-	git clone https://github.com/username/projectname.git
+	git clone https://github.com/username/repositoryname.git
 
 //to create a new repository on the command line
-	echo "#uml" >> README.md
+	echo "#some text" >> README.md
 	git init
 	git add README.md
 	git commit -m "first commit"
 
 // to upload a git from local to github (must exist an empty github)
-	git remote add origin https://github.com/username/projectname.git
+	git remote add origin https://github.com/tsaras/repositoryname.git
 	git push -u origin master
 
+//To remove a remote repository you enter:
+	git remote rm repositoryname
+
+//to check remode projects
+git remote
 
 git log //shows logs
 
@@ -88,6 +93,7 @@ git push -u origin master
 //You can see all branches created by using
 $ git branch
 
-
+//to see what/where remotes are set
+	git remote -v
 
 
