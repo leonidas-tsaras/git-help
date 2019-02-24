@@ -1,0 +1,78 @@
+git init
+git status
+git add index.html
+git add .
+git reset //cancels add
+
+git commit -m "revision 0.1"
+
+// to clone a git from github
+	git clone https://github.com/username/projectname.git
+
+//to create a new repository on the command line
+	echo "#uml" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/tsaras/uml.git
+git push -u origin master
+
+// git config --global user.email "you@example.com"
+// git config --global user.name "Your Name"
+
+git log //shows logs
+
+git checkout index.html //brings back the previously  commited file
+git checkout 6bb31b0e579393bfbde3f9e03e4590fa09446f3f //brings back all set of files of this commit
+git checkout master //brings back master
+git checkout hello //gets as current hello branch. if new, checks out all files from current
+
+git reset HEAD index.html //unstage file
+
+git branch //shows current branch
+git branch hello 6bb31b //renames branch
+git branch newbranch //creates a new branch named newbranch
+git branch -m hello app //renames hello branch to app
+git branch -D app //deletes app branch (or use hash number instead of branch name)
+
+git merge hello //merges hello to current branch (usually to master)
+
+
+
+
+
+//Pushing to Your Remotes 
+git push [remote-name] [branch-name]
+git push origin master
+
+//Fetching and Pulling from Your Remotes
+git fetch [remote-name]
+git push origin master
+
+//Listing Your Tags
+git tag
+
+
+//To add a local repository (for example: local_proj) to an existing Git project
+git remote add local_proj /opt/git/project.git
+
+git remote
+git remote show origin //pulls, merges, pushes
+
+//----------------------------------------------------------------
+
+
+
+//-----------------------------------------------------------------------
+//…or push an existing repository from the command line
+
+git remote add origin https://github.com/tsaras/e-commerce.git
+git push -u origin master
+
+
+//You can see all branches created by using
+$ git branch
+
+
+
+
